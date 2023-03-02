@@ -1,11 +1,9 @@
-import Navbar from '../../components/Navbar';
+import { Link } from 'react-router-dom';
 import HomeCarImage from "../../assets/images/yellow-car.png";
 import './styles.css';
 
 const Home = () => {
   return (
-    <>
-    <Navbar/>
     <div className="home-container">
       <div className="home-card bg-primary">
         <div className="home-image-container">
@@ -17,11 +15,10 @@ const Home = () => {
         </div>
       </div>
       <div className="home-link-container">
-        <button className="btn btn-primary my-btn">Ver Catálogo</button>
+        <Link to="/catalog"><button className="btn btn-primary my-btn">Ver Catálogo</button></Link>
         <p>Comece agora a navegar</p>
       </div>
     </div>
-    </>
   );
 };
 
