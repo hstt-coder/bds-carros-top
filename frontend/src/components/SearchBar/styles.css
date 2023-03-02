@@ -1,0 +1,18 @@
+
+.search-bar-container {
+  display: flex;
+}
+.search-bar-input {
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.search-bar-input::placeholder {
+  color: #A7A7A7;
+}
+
+.search-bar-container button {
+  border-radius: 0px 5px 5px 0px;
+}

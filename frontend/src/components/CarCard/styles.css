@@ -1,0 +1,29 @@
+.car-card-container {
+  background-color: #EDEDED;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.car-card-content {
+  text-align: center;
+  padding: 15px 19px;
+}
+
+.car-card-content h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.car-card-content p {
+  margin: 14px 0 38px;
+  text-align: left;
+  font-size: 12px;
+  width: 250px;
+}
+
+.car-card-content button {
+  width: 100%;
+}

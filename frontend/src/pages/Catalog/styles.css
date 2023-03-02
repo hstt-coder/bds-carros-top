@@ -1,0 +1,13 @@
+.catalog-container {
+  padding: 20px 10px;
+}
+
+.searching-container {
+  padding: 22px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #EDEDED;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
