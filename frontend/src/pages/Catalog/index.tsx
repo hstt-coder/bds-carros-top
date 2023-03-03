@@ -9,10 +9,35 @@ const Catalog = () => {
         <SearchBar/>
       </div>
       <div className="catalog-cars-container">
-        <CarCard/>
-        <CarCard/>
-        <CarCard/>
-        <CarCard/>
+       <div className="row">
+       <div className="col-sm-6 col-lg-4">
+          <CarCard/>
+        </div>
+        <div className="col-sm-6 col-lg-4">
+          <CarCard/>
+        </div>
+        <div className="col-sm-6 col-lg-4">
+          <CarCard/>
+        </div>
+        <div className="col-sm-6 col-lg-4">
+          <CarCard/>
+        </div>
+        <div className="col-sm-6 col-lg-4">
+          <CarCard/>
+        </div>
+        <div className="col-sm-6 col-lg-4">
+          <CarCard/>
+        </div>
+        <div className="col-sm-6 col-lg-4">
+          <CarCard/>
+        </div>
+        <div className="col-sm-6 col-lg-4">
+          <CarCard/>
+        </div>
+        <div className="col-sm-6 col-lg-4">
+          <CarCard/>
+        </div>
+       </div>
       </div>
     </div>
   );

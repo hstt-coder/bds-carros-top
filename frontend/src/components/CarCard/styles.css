@@ -5,11 +5,12 @@
   align-items: center;
   border-radius: 10px;
   margin-bottom: 20px;
+  padding: 15px 22px;
 }
 
 .car-card-content {
   text-align: center;
-  padding: 15px 19px;
+  padding: 15px 22px;
 }
 
 .car-card-content h3 {
@@ -20,10 +21,40 @@
 .car-card-content p {
   margin: 14px 0 38px;
   text-align: left;
-  font-size: 12px;
-  width: 250px;
+  font-size: 14px;
+  width: 270px;
+  font-style: italic;
+  color: #585858;
 }
 
 .car-card-content button {
   width: 100%;
+}
+
+@media (min-width: 576px) {
+  .car-card-content p {
+    font-size: 12px;
+    width: 220px;
+  }
+}
+
+@media (min-width:768px) {
+  .car-card-content p {
+    font-size: 14px;
+    width: 320px;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .car-card-content p {
+    width: 255px;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .car-card-content p {
+    width: 260px;
+  }
 }

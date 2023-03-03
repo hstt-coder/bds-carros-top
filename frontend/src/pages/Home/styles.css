@@ -37,7 +37,7 @@
 
 .home-link-container {
   text-align: center;
-  padding: 30px;
+  padding: 25px 50px;
   background: #EDEDED;
   border-radius: 10px;
 }
@@ -85,6 +85,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 42px 62px 42px 85px;
   }
 
   .home-link-container p {
@@ -100,12 +101,17 @@
   .home-link-container {
     padding: 40px 85px;
     justify-content: flex-start;
+    margin-top: 25px;
   }
 }
 
 @media (min-width: 992px) {
   .home-card {
     padding: 85px 248px;
+  }
+
+  .home-link-container {
+    margin-top: 30px;
   }
 }
 

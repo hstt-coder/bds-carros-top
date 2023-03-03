@@ -11,3 +11,36 @@
   margin-bottom: 20px;
   border-radius: 10px;
 }
+
+@media (min-width: 576px) {
+  .catalog-container {
+    padding: 30px 20px;
+  }
+
+  .searching-container {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 576px) {
+  .catalog-container {
+    padding: 30px 20px;
+  }
+
+  .searching-container {
+    padding: 40px 22px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .searching-container {
+    padding: 42px 97px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .catalog-container {
+    padding: 30px 150px;
+  }
+}
